@@ -1,0 +1,54 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/6.1.0/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'appium-doctor',
+1 verbose cli   '–g' ]
+2 info using npm@3.8.6
+3 info using node@v6.1.0
+4 verbose config Skipping project config: /Users/nelegante/.npmrc. (matches userconfig)
+5 silly loadCurrentTree Starting
+6 silly install loadCurrentTree
+7 silly install readLocalPackageData
+8 silly fetchPackageMetaData appium-doctor
+9 silly fetchPackageMetaData –g
+10 silly fetchNamedPackageData appium-doctor
+11 silly mapToRegistry name appium-doctor
+12 silly mapToRegistry using default registry
+13 silly mapToRegistry registry https://registry.npmjs.org/
+14 silly mapToRegistry data Result {
+14 silly mapToRegistry   raw: 'appium-doctor',
+14 silly mapToRegistry   scope: null,
+14 silly mapToRegistry   name: 'appium-doctor',
+14 silly mapToRegistry   rawSpec: '',
+14 silly mapToRegistry   spec: 'latest',
+14 silly mapToRegistry   type: 'tag' }
+15 silly mapToRegistry uri https://registry.npmjs.org/appium-doctor
+16 silly fetchOtherPackageData –g
+17 silly cache add args [ '–g', null ]
+18 verbose cache add spec –g
+19 verbose request uri https://registry.npmjs.org/appium-doctor
+20 verbose request no auth needed
+21 info attempt registry request try #1 at 10:23:54 AM
+22 verbose request id 42f3c1cb74d6dee0
+23 http request GET https://registry.npmjs.org/appium-doctor
+24 verbose stack TypeError: The header content contains invalid characters
+24 verbose stack     at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+24 verbose stack     at new ClientRequest (_http_client.js:85:14)
+24 verbose stack     at Object.exports.request (http.js:31:10)
+24 verbose stack     at Object.exports.request (https.js:199:15)
+24 verbose stack     at Request.start (/usr/local/lib/node_modules/npm/node_modules/request/request.js:747:30)
+24 verbose stack     at Request.end (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1381:10)
+24 verbose stack     at end (/usr/local/lib/node_modules/npm/node_modules/request/request.js:575:14)
+24 verbose stack     at Immediate._onImmediate (/usr/local/lib/node_modules/npm/node_modules/request/request.js:589:7)
+24 verbose stack     at tryOnImmediate (timers.js:543:15)
+24 verbose stack     at processImmediate [as _immediateCallback] (timers.js:523:5)
+25 verbose cwd /Users/nelegante/b2bmedia-automation/bnd
+26 error Darwin 16.4.0
+27 error argv "/usr/local/Cellar/node/6.1.0/bin/node" "/usr/local/bin/npm" "install" "appium-doctor" "–g"
+28 error node v6.1.0
+29 error npm  v3.8.6
+30 error The header content contains invalid characters
+31 error If you need help, you may report this error at:
+31 error     <https://github.com/npm/npm/issues>
+32 verbose exit [ 1, true ]
